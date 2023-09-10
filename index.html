@@ -1,116 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tesla Model 3</title>
     <link rel="stylesheet" type="text/css" href="./styles.css">
-
 </head>
 
 <body>
     <header>
-     
-            <img src="./images/tesla-model-3.jpeg" class="heroimage">
-            <div class="herotext">
-                <h1> Tesla Model 3</h1>
-            
-                <button> Book Now</button>
-                <button href> Know More</button>
-            </div>
-              
-   
+<img src="./images/tesla-model-3.png" class="heroimage">
+        <div class="herotext">
+            <h1> Tesla Model 3</h1>
+
+            <button> Book Now</button>
+            <button href> Know More</button>
+        </div>
+
+
     </header>
-    <span class="scrolltext">Scroll down to know more <br><br> <img src="./images/scroll-down-white.png"  max-width="20px" height="20px">
+    <span class="scrolltext">Scroll down to know more <br><br> <img src="./images/scroll-down-white.png"
+            max-width="20px" height="20px">
     </span>
-<div class="midsection">
-    <p class="midheader">
-        <h2> Features</h2>
-    </p>
+    <div class="midsection">
 
-    <div class="features">
-        <table class="FeaturesTable">
-            <th> Features</th>
-        <tr> 
-            <td> Range </td>
-            <td> 272 miles</td>
-        </tr>
-        <tr> 
-            <td> Top Speed </td>
-            <td> 140mph</td>
-        </tr>
-        <tr> 
-            <td> 0-60mph </td>
-            <td> 5.8sec </td>
-        </tr>
+        <div class="row">
+            <div class="column">
+                <div class="features">
+                    <p class="midheader">
+                    <h2> Features</h2>
+                    </p>
+                    <table class="feat">
+                        <tr>
+                            <td> Range </td>
+                            <td> 272 miles</td>
+                        </tr>
+                        <tr>
+                            <td> Top Speed </td>
+                            <td> 140mph</td>
+                        </tr>
+                        <tr>
+                            <td> 0-60mph </td>
+                            <td> 5.8sec </td>
+                        </tr>
 
-        </table>
+                    </table>
+                </div>
+            </div>
+            <div class="column">
+                <div class="pricerange">
+                    <p class="midheader">
+                    <h2> Price Range </h2>
+                    </p>
+                </div>
+                <br>
+                <div class="prices">
+                    <details>
+                        <summary> Rear Wheel Drive </summary>
+
+                        <p> Model 3 - $29240 </p>
+                    </details>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <details>
+
+
+                        <summary>All Wheel Drive</summary>
+
+                        <p>Dual Motor All-Wheel Drive Model 3 Long Range - $33240 </p>
+
+
+                        <p>Dual Motor All-Wheel Drive Model 3 Performance - $39240 </p>
+
+
+                    </details>
+                </div>
+            </div>
+        </div>
+
+
+
     </div>
-    <div class="prices">
-        <details>
-            <summary>Rear Wheel Drive</summary>
-            <ul>
-                <li>
-                    Model 3  - $29240
 
-                </li>
-            </ul>          </details>
-          <details>
-            <summary>All Wheel Drive</summary>
-            <ul>
-                <li>
-                    Dual Motor All-Wheel Drive Model 3 Long Range - $33240
-
-                </li>
-                <li>
-                    Dual Motor All-Wheel Drive Model 3 Performance - $39240
-
-                </li>
-            </ul>
-          </details>      
     </div>
-</div>
-<div class="mediasection">
-    <div class="video">
-        <p>
-            <h3> Some Feature of the Car</h3>
-            <video width="320" height="240" controls>
-                <source src="./videos/Model-3-Main.webm" type="video/webm">  
+    <div class="mediasection">
+        <div class="video">
+            
+            
+            <video width="auto" height="auto" controls autoplay>
+                <source src="./videos/Model-3-Main.webm" type="video/webm">
             </video>
-        </p>
-    </div>
-    <div class="audio">
-        <div class="leftaudio">
-            <p>
-                <h4> What's more? You could change the horn sound to a Dog</h4>
-            </p>
-            <audio controls>
-                <source src="./audio/Dog-Barks.mp3" type="audio/mpeg">
-                          </audio> 
+           
         </div>
-        <div class="rightaudio">
+        <div class="audio">
             <p>
-                <h4> or to a Bell</h4>
-            </p>
-            <audio controls>
-                <source src="./audio/Ring-bell-sound.mp3" type="audio/mpeg">
-                          </audio> 
+                <h4> Fun Fact: You could now change the horn sound to <span style="font-size: large; font-style: italic;"> ANYTHING </span> you like </h4>
+                </p>
+            <img src="./images/tesla-steering.jpeg" class="steering">
+            <div class="row">
+                <div class="column">
+                    <div class="leftaudio">
+                        <p>
+                            <h4> From your pet dogs bark ..</h4>
+                            </p>
+                        <audio controls>
+                            <source src="./audio/Dog-Barks.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="rightaudio">
+                        <p>
+                        <h4> .. or to a Bell</h4>
+                        </p>
+                        <audio controls>
+                            <source src="./audio/Ring-bell-sound.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                </div>
+                
+            </div>
+           
+            <p>
+                <h4> Literally. any. <span style="font-size: large; font-style: italic;">SOUND.</span> </h4>
+                </p> 
         </div>
+
+    <div class="cta">
+
+   
+        <h3> What are you waiting for? Contact us or Book Now</h3>
+        <button>
+            <a href="./enquire.html" target="_blank">Enquire</a>
+        </button>
+        <button>
+            <a href="mailto:sreedhar.sh@northeastern.edu">Email Us</a>
+        </button>
+        <button>
+            <a href="tel:+18572305153">Call Us</a>
+        </button>
     </div>
-<h3> What are you waiting for? Contact us or Book Now</h3>
-    <button>
-      <a href="mailto:sreedhar.sh@northeastern.edu">Email Us</a>
-    </button>
-    <button>
-        <a href="tel:+18572305153">Call Us</a>
-      </button>
 </div>
-<footer>
-    
+    <footer>
+
         <p>A Website for INFO6150 Assignemnt 1 - Fall 2023 by Shreyas S Sreedhar</p>
         <p><a href="mailto:sreedhar.sh@northeastern.edu">sreedhar.sh@northeastern.edu</a></p>
-  
-</footer>
+
+    </footer>
 </body>
 
 </html>
