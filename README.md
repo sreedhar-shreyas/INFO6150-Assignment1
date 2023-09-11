@@ -1,5 +1,7 @@
 # INFO6150
 ## Assignment-1 of INFO610 by Shreyas (sreedhar.sh@northeastern.edu)
+### Tesla Model 3 Product Website
+This is a simple product website that utilises HTML and CSS made to let the users know about the car and few of its features. 
 <details>
  <summary> Favicon </summary> 
   
@@ -71,4 +73,6 @@
   ![](./images/readme-images/readme_ContactProof.png)
 </details>
 
+
+P.S Most of the commits were done from [shreyas-sreedhar](www.github.com/shreyas-sreedhar) as it is my personal account, and done prior to making a separate account(current account you're reading from) from my Northeastern ID. Apologies for the inconvenicence. 
 
