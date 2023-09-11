@@ -99,5 +99,5 @@ This is a simple Autmoobile Product website that utilises HTML and CSS made to l
 </details>
 
 
-P.S Most of the commits were done from [shreyas-sreedhar](www.github.com/shreyas-sreedhar) as it is my personal account, and done prior to making a separate account(current account you're reading from) from my Northeastern ID. Apologies for the inconvenicence. 
+P.S Some of the commits were done from [shreyas-sreedhar](www.github.com/shreyas-sreedhar) and was done prior to making a this github from my Northeastern ID. Apologies for the inconvenicence. 
 
