@@ -12,25 +12,26 @@
 <body>
     <div class="hmenu">
         <a href="#home">Home</a>
-      <a href="#Features">Features</a>
-      <a href="./enquire.html">Enquire</a>
+        <a href="#features">Features</a>
+        <a href="./enquire.html">Enquire</a>
     </div>
-    <header section="Home">
-<img src="./images/tesla-model-3.png" class="heroimage">
+    <header id="Home">
+        <img src="./images/tesla-model-3.png" class="heroimage">
         <div class="herotext">
             <h1> Tesla Model 3</h1>
-
-            <button> Book Now</button>
-            <button href> Know More</button>
+            <a href="#features">
+                <button> Book Now</button></a>
+            <a href="./enquire.html" target="_blank"></a>
+            <button href="enquire.html"> Know More</button>
         </div>
 
 
     </header>
-    
+
     <span class="scrolltext">Scroll down to know more <br><br> <img src="./images/scroll-down-white.png"
             max-width="20px" height="20px">
     </span>
-    <div class="midsection">
+    <div class="midsection" id="features">
 
         <div class="row">
             <div class="column">
@@ -94,26 +95,27 @@
     </div>
 
     </div>
-    <div class="mediasection" section="Features">
+    <div class="mediasection" id="Features">
         <div class="video">
-            
-            
+
+
             <video width="auto" height="auto" controls autoplay>
                 <source src="./videos/Model-3-Main.webm" type="video/webm">
             </video>
-           
+
         </div>
         <div class="audio">
             <p>
-                <h4> Fun Fact: You could now change the horn sound to <span style="font-size: large; font-style: italic;"> ANYTHING </span> you like </h4>
-                </p>
+            <h4> Fun Fact: You could now change the horn sound to <span style="font-size: large; font-style: italic;">
+                    ANYTHING </span> you like </h4>
+            </p>
             <img src="./images/tesla-steering.jpeg" class="steering">
             <div class="row">
                 <div class="column">
                     <div class="leftaudio">
                         <p>
-                            <h4> From your pet dogs bark ..</h4>
-                            </p>
+                        <h4> From your pet dogs bark ..</h4>
+                        </p>
                         <audio controls>
                             <source src="./audio/Dog-Barks.mp3" type="audio/mpeg">
                         </audio>
@@ -129,29 +131,29 @@
                         </audio>
                     </div>
                 </div>
-                
+
             </div>
-           
+
             <p>
-                <h4> Literally. any. <span style="font-size: large; font-style: italic;">SOUND.</span> </h4>
-                </p> 
+            <h4> Literally. any. <span style="font-size: large; font-style: italic;">SOUND.</span> </h4>
+            </p>
         </div>
 
-    <div class="cta">
+        <div class="cta" id="cta">
 
-   
-        <h3> What are you waiting for? Contact us or Book Now</h3>
-        <button>
-            <a href="./enquire.html" target="_blank">Enquire</a>
-        </button>
-        <button>
-            <a href="mailto:sreedhar.sh@northeastern.edu">Email Us</a>
-        </button>
-        <button>
-            <a href="tel:+18572305153">Call Us</a>
-        </button>
+
+            <h3> What are you waiting for? Contact us or Book Now</h3>
+            <button>
+                <a href="./enquire.html" target="_blank">Enquire</a>
+            </button>
+            <button>
+                <a href="mailto:sreedhar.sh@northeastern.edu">Email Us</a>
+            </button>
+            <button>
+                <a href="tel:+18572305153">Call Us</a>
+            </button>
+        </div>
     </div>
-</div>
     <footer>
 
         <p>A Website for INFO6150 Assignemnt 1 - Fall 2023 by Shreyas S Sreedhar</p>
