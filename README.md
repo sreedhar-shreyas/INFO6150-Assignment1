@@ -82,7 +82,7 @@ This is a simple product website that utilises HTML and CSS made to let the user
  <summary> Menu </summary> 
   
   ![](./images/readme-images/readme_MenuProof.png)
-  Used the Lists to list out the Available models in the Enquire Page
+  Used the Lists to list out the Available models in the Enquire Page. Added the Horizonatal menu(Navbar) in the home page as well.
 </details>
 <details>
  <summary> Tel for Contact Info </summary> 
