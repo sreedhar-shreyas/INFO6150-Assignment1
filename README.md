@@ -3,7 +3,7 @@
 
 ### Favicon
 
-!shows up on the website as - [](./images/readme-images/readme_Proof.png)
+shows up on the website as - [](./images/readme-images/readme_Proof.png)
 
 ### Table
 ![](,.)
