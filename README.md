@@ -1,7 +1,7 @@
 # INFO6150
 ## Assignment-1 of INFO610 by Shreyas (sreedhar.sh@northeastern.edu)
 ### Tesla Model 3 Product Website
-This is a simple product website that utilises HTML and CSS made to let the users know about the car and few of its features. Click on the Tags for a dropdown with details on where the Tags are being used. 
+This is a simple Autmoobile Product website that utilises HTML and CSS made to let the users know about the car and few of its features. Click on the Tags for a dropdown with details on where the Tags are being used. 
 <details>
  <summary> Favicon </summary> 
 
